@@ -3,7 +3,7 @@ package com.revplay.dao;
 import java.sql.*;
 import com.revplay.util.DBConnection;
 
-public class UserDAOImpl implements UserDAO {
+public class  UserDAOImpl implements UserDAO {
 
     Connection con = DBConnection.getConnection();
 

@@ -1,6 +1,6 @@
 package com.revplay.dao;
 
-public interface SongDAO {
+public interface SongDAO  {
     void availableSongs();
     void genreWiseSongs(String genre);
     void playSong(int songId);

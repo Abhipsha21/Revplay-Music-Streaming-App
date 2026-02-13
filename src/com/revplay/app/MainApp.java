@@ -28,7 +28,7 @@ public class MainApp {
                 if (loginService.loginUser(username, password)) {
                     new UserServiceImpl().userMenu(username);
                 } else {
-                    System.out.println("❌ Invalid username or password");
+                    System.out.println("Invalid username or password");
                 }
 
             } else if (choice == 2) {
@@ -37,10 +37,10 @@ public class MainApp {
                 new ArtistServiceImpl().artistMenu(artistName);
 
             } else if (choice == 3) {
-                System.out.println("👋 Exiting...");
+                System.out.println(" Exiting...");
                 System.exit(0);
             } else {
-                System.out.println("❌ Invalid choice");
+                System.out.println(" Invalid choice");
             }
         }
     }

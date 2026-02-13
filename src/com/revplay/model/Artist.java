@@ -1,6 +1,6 @@
 package com.revplay.model;
 
-public class Artist {
+public class  Artist {
 
     private int artistId;
     private String name;

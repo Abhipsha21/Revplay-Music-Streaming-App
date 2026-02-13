@@ -1,6 +1,6 @@
 package com.revplay.service;
 
-public interface ArtistService {
+public interface  ArtistService {
     void artistMenu(String artistName);
 }
 

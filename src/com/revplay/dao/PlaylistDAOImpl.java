@@ -5,7 +5,7 @@ import com.revplay.util.DBConnection;
 
 public class PlaylistDAOImpl implements PlaylistDAO {
 
-    private Connection con = DBConnection.getConnection();
+    private Connection con =  DBConnection.getConnection();
 
     @Override
     public void viewMyPlaylists(String username) {

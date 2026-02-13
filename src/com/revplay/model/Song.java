@@ -66,7 +66,7 @@ public class Song {
         return trending;
     }
 
-    public void setTrending(String trending) {
+    public void setTrending(String trending)  {
         this.trending = trending;
     }
 }

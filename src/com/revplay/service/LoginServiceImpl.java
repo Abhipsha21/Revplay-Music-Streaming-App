@@ -2,7 +2,7 @@ package com.revplay.service;
 
 import com.revplay.dao.*;
 
-public class LoginServiceImpl implements LoginService {
+public class   LoginServiceImpl implements LoginService {
 
     private UserDAO userDAO = new UserDAOImpl();
 

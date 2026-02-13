@@ -3,7 +3,7 @@ package com.revplay.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBConnection {
+public class  DBConnection {
 
     private static Connection con;
 

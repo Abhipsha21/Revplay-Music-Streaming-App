@@ -13,7 +13,7 @@ public class Playlist {
         this.playlistId = playlistId;
         this.username = username;
         this.name = name;
-        this.description = description;
+        this.description =  description;
     }
 
     public int getPlaylistId() { return playlistId; }

@@ -18,7 +18,7 @@ public class ArtistDAOImpl implements ArtistDAO {
             ps.setString(3, artist);
 
             // Get genre_id
-            PreparedStatement ps2 = con.prepareStatement("SELECT genre_id FROM genre WHERE genre_name=?");
+            PreparedStatement ps2  = con.prepareStatement("SELECT genre_id FROM genre WHERE genre_name=?");
             ps2.setString(1, genre);
             ResultSet rs = ps2.executeQuery();
             if(rs.next()) ps.setInt(4, rs.getInt("genre_id"));

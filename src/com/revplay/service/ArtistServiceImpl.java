@@ -20,7 +20,7 @@ public class ArtistServiceImpl implements ArtistService {
 
             int choice = sc.nextInt();
 
-            switch (choice) {
+            switch (choice)  {
                 case 1 -> {
                     System.out.print("Song ID: "); int id = sc.nextInt();
                     System.out.print("Title: "); String title = sc.next();

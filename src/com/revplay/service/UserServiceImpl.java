@@ -7,7 +7,7 @@ public class UserServiceImpl implements UserService {
 
     private SongDAO songDAO = new SongDAOImpl();
     private PlaylistDAO playlistDAO = new PlaylistDAOImpl();
-    private Scanner sc = new Scanner(System.in);
+    private Scanner  sc = new Scanner(System.in);
 
     @Override
     public void userMenu(String username) {
